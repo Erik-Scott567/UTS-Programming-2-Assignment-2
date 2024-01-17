@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:controller="controller.Destinations.ExploreDestinationsController" alignment="CENTER" styleClass="background" prefHeight="200.0" prefWidth="600.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1">
+        <ImageView fitHeight="200.0" fitWidth="800.0" pickOnBounds="false">
+                <Image url="@/image/destination.png" />
+            </ImageView>
+        <Separator/>
+        <Label text="Hi Davey, welcome to the Destinations section" styleClass="heading"/>
+        <Separator/>
+        <HBox alignment="CENTER">
+            <Button fx:id="ViewAllDestBtn" text="View All Destinations" styleClass="flights-button" onAction="#ViewDestinations"/>
+            <Button fx:id="ViewFilteredDestBtn" text="View Filtered Destina..." styleClass="flights-button" onAction="#ViewFilteredDestinations"/>
+            <Button fx:id="AddDestBtn" text="Add Destination" styleClass="flights-button" onAction="#Add"/>
+            <Button fx:id="RemoveDestBtn" text="Remove Destination" styleClass="flights-button" onAction="#Remove"/>
+            <Button fx:id="CloseBtn" text="Close" styleClass="flights-button" onAction="#exit"/>
+
+        </HBox>
+        <stylesheets>
+            <URL value="@../style.css"/>
+        </stylesheets>
+</VBox>

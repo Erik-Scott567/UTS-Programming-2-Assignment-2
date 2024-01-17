@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>  
+<?import javafx.scene.control.ListView?>
+<?import javafx.collections.ObservableList?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?> 
+<?import javafx.scene.text.Text?>
+
+<VBox fx:controller="controller.Destinations.ModifyDestinationsController" alignment="CENTER" styleClass="background" prefHeight="200.0" prefWidth="600.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1">
+            <ImageView fitHeight="200.0" fitWidth="800.0" pickOnBounds="false">
+                <Image url="@/image/destination.png" />
+            </ImageView>
+            <Separator/>
+            <Label text="Add a Destination" styleClass="heading"/>
+            <Separator/>
+            <GridPane alignment="CENTER">
+            <Label text="Name:" GridPane.columnIndex="0" GridPane.rowIndex="0"/>
+            <TextField fx:id="Name" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" styleClass="addflightFields"/>
+            <Label text="Country:" GridPane.columnIndex="0" GridPane.rowIndex="1"/>
+            <TextField fx:id="Country" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="addflightFields"/>
+            </GridPane> 
+            <HBox alignment="CENTER">
+            <Button fx:id="AddBtn" text="Add Destination" styleClass="add-flight-button" onAction="#add"/>
+            <Button fx:id="CloseBtn" text="Close" styleClass="close-addfly-button" onAction="#exit"/>
+            </HBox>
+            <stylesheets>
+                <URL value="@../style.css"/>
+            </stylesheets> 
+</VBox>

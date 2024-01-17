@@ -1,0 +1,134 @@
+.label {
+    -fx-font-size: 10pt;
+    -fx-font-family: Helvetica;
+    -fx-text-fill: #168FC1;
+    -fx-font-weight: bold;
+}
+
+.errorLabel {
+    -fx-text-fill: red;
+    -fx-font-weight: bold;
+}
+
+
+.heading {
+    -fx-font-size: 12pt;
+    -fx-font-family: Helvetica;
+    -fx-text-fill: #168FC1;
+    -fx-font-weight: bold;
+}
+
+.root {
+
+}
+
+.image {
+
+}
+
+.button{
+
+}
+
+.button:hover{     
+  -fx-background-color:#0B729C; 
+  -fx-text-fill:white;
+  -fx-font-weight:bold; 
+  fx-font-size: 11pt;
+  -fx-border-color:#168FC1; 
+}
+
+.textfield {
+    -fx-border-radius: 0;
+    -fx-background-color: rgb(226, 243, 255);
+}
+
+.agency-button {
+    -fx-min-width: 200;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#168FC1; 
+    -fx-background-color:#168FC1;
+
+}
+
+.flights-button {
+    -fx-min-width: 160;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#168FC1; 
+    -fx-background-color:#168FC1;
+}
+
+.Display-Flights-button {
+    -fx-min-width: 800;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#168FC1; 
+    -fx-background-color:#168FC1;
+}
+
+.login-button {
+    -fx-min-width: 200;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#7dd8ff; 
+    -fx-background-color:#7dd8ff;
+
+}
+
+.add-flight-button {
+    -fx-min-width: 400;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#7dd8ff; 
+    -fx-background-color:#7dd8ff;
+}
+
+.close-addfly-button {
+    -fx-min-width: 400;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#168FC1; 
+    -fx-background-color:#168FC1;
+}
+
+.exit-button {
+    -fx-min-width: 200;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+    -fx-border-color:#168FC1; 
+    -fx-background-color:#168FC1;
+}
+
+.addflightFields {
+    
+    
+}
+
+.countryText {
+
+
+}
+
+.filter-bar {
+    -fx-min-width: 800;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+
+}
