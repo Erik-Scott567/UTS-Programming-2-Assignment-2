@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:controller="controller.AgencyController" alignment="CENTER" styleClass="background" prefHeight="200.0" prefWidth="800.0" spacing="20" xmlns:fx="http://javafx.com/fxml/1">
+            <ImageView fitHeight="200.0" fitWidth="800.0" pickOnBounds="false">
+                <Image url="@/image/agency.png" />
+            </ImageView>
+        <Separator/>
+        <Label fx:id="welcome" styleClass="heading"/>
+        <Separator/>
+        <HBox alignment="CENTER">
+            <Button fx:id="ExFlyBtn" text="Explore Flights" styleClass="agency-button" onAction="#exploreFlights"/>
+            <Button fx:id="ExDestBtn" text="Explore Destinations" styleClass="agency-button" onAction="#exploreDestinations"/>
+            <Button fx:id="BookTripBtn" text="Book Trip" styleClass="agency-button" onAction="#BookTrip"/>
+            <Button fx:id="ExitAgency" text="Exit" styleClass="agency-button" onAction="#exit"/>
+        </HBox>
+        <stylesheets>
+            <URL value="@style.css"/>
+        </stylesheets>
+</VBox>
